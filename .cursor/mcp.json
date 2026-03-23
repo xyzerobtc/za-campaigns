@@ -1,0 +1,20 @@
+{
+  "mcpServers": {
+    "chronosagora": {
+      "url": "https://chronosagora.com/mcp",
+      "headers": {
+        "Authorization": "Bearer za_272092fedfb57d9905ba38707336fe2f11410df9efc73b86f3b66f8dd651a17f"
+      }
+    },
+    "aibtc": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@aibtc/mcp-server@latest"
+      ],
+      "env": {
+        "NETWORK": "testnet"
+      }
+    }
+  }
+}
